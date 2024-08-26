@@ -1,0 +1,77 @@
+header {
+    background-image: url(/assets/imgs/Background_Intro.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 750px;
+
+    text-align: center;
+    padding-top: 120px;
+}
+
+.profile-pic {
+    width: 87.27px;
+    height: 87.27px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--red);
+}
+
+header h2 {
+    padding: 56px 0 8px 0;
+    font: var(--subtitle);
+    color: var(--gray-500);
+}
+
+header strong {
+    color: var(--red);
+}
+
+header h1 {
+    font: var(--title-lg);
+    color: var(--gray-600);
+    padding-bottom: 20px;
+}
+
+header p {
+    font: var(--text-sm);
+    color: var(--gray-400);
+    padding-bottom: 80px;
+}
+
+header ul {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    padding-bottom: 94px;
+}
+
+header ul img {
+    width: 24px;
+    height: 24px;
+}
+
+header li {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    padding: 8px 16px;
+    background: #292C34;
+    border-radius: 999px;
+}
+
+/* span:first-child{
+    border: 3px solid red;
+    padding: 87.27px;
+} */
+
+
+
+/* Intro
+
+/* User
+
+/* Avatar 
+
+/* Tag */
