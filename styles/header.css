@@ -9,12 +9,23 @@ header {
     padding-top: 120px;
 }
 
+header div:first-child{
+    position: relative;
+}
+
 .profile-pic {
     width: 87.27px;
     height: 87.27px;
     border-radius: 50%;
     object-fit: cover;
     border: 2px solid var(--red);
+}
+
+header img:nth-child(2){
+    position: absolute;
+    bottom: 0px;
+    right: 706px;
+
 }
 
 header h2 {
@@ -53,12 +64,12 @@ header ul img {
 
 header li {
     display: flex;
-    align-items: center;
     padding: 8px 16px;
     gap: 8px;
     padding: 8px 16px;
     background: #292C34;
     border-radius: 999px;
+    font: var(--text-md);
 }
 
 /* span:first-child{
