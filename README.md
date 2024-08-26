@@ -2,6 +2,8 @@
 # Portfolio Desenvolvedor Fullstack
 ![alt text](image.png)
 
+https://dictionaryfrancisprojeto-portifolio.netlify.app/
+
 Este portfólio foi desenvolvido utilizando **HTML** e **CSS** como meu primeiro projeto de portfólio. Ele reflete meu aprendizado inicial nas tecnologias web e serve como uma base sólida para demonstrar minhas habilidades em desenvolvimento front-end e back-end.
 
 ## 🛠️ Tecnologias Utilizadas
