@@ -49,8 +49,14 @@ footer #links .cards{
     color: var(--gray-500);
     background-color: var(--gray-300);
     padding: 24px;
-    border-radius: 4px;
+    border-radius: 8px;
     justify-content: space-between;
+    cursor: pointer;
+    border: 1px solid var(--gray-300);
+}
+
+footer #links .cards:hover{
+    border: 1px solid var(--blue);
 }
 
 footer #links .cards div:first-child{
@@ -60,10 +66,24 @@ footer #links .cards div:first-child{
     gap: 12px;
 }
 
+footer #links .cards div:first-child:hover{
+ 
+}
+
 footer #links .cards div:last-child{
     align-self: flex-end;
 }
 
+
+footer #links .cards span{
+    width: 28px;
+    height: 28px;
+    background-image:url(/assets/icons/LinkedinLogo.svg) ;
+}
+
+footer #links .cards span:hover{
+    background-image:url(/assets/icons/LinkedinLogo-hover.svg) ;
+}
 
 footer #links .cards img:first-child{
     width: 28px;
