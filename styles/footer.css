@@ -1,0 +1,76 @@
+footer {
+    background-image: url(/assets/imgs/Background_Contacts.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 750px;
+
+    text-align: center;
+    padding: 128px 120px 120px 200px;
+}
+
+footer #header{
+    display: flex;
+    gap: 8px;    
+    flex-direction:column;
+}
+
+footer #header h2 {
+    font: var(--subtitle);
+    color: var(--purple);
+    padding-bottom: 8px;
+}
+
+footer #header h3 {
+    font: var(--title-md);
+    color: var(--gray-600);
+}
+
+footer #header p {
+    font: var(--text-md);
+    color: var(--gray-500);
+}
+
+
+footer #links{
+    padding-top: 48px;
+    display: flex;
+    gap: 12px;
+    flex-direction:column;
+    align-items: center;
+}
+
+footer #links .cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    font: var(--text-md);
+    color: var(--gray-500);
+    background-color: var(--gray-300);
+    padding: 24px;
+    border-radius: 4px;
+    justify-content: space-between;
+}
+
+footer #links .cards div:first-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+footer #links .cards div:last-child{
+    align-self: flex-end;
+}
+
+
+footer #links .cards img:first-child{
+    width: 28px;
+    height: 28px;
+}
+
+footer #links .cards img:last-child{
+    width: 20px;
+    height: 20px;
+}
