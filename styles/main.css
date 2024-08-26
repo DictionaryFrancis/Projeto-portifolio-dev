@@ -1,0 +1,69 @@
+main {
+    background-color: var(--gray-200);
+    padding: 72px 120px 144px;
+    text-align: center;
+    
+}
+
+main #header {
+
+    padding-bottom: 56px;
+
+}
+
+main #header h2 {
+    font: var(--subtitle);
+    color: var(--red);
+    padding-bottom: 8px;
+}
+
+main #header h3 {
+    font: var(--title-md);
+    color: var(--gray-600);
+}
+
+main #grid {
+    
+    display: grid;
+    grid-template-columns: repeat(3, 330px);
+    gap: 24px;
+    padding: 20px;
+    border-radius: 10px;
+
+    justify-content: center;
+}
+
+main #grid img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    width: 306px;
+    height: 156px;
+}
+
+main #grid .card {
+    border-radius: 12px;
+    height: 280px;
+    width: 330px;
+    background-color: var(--gray-300);
+    padding: 12px;
+}
+
+
+main #grid figcaption {
+    text-align: start;
+    padding: 20px 4px 0;
+}
+
+main #grid figcaption h4{
+    font: var(--title-sm);
+    color: var(--gray-600);
+}
+
+main #grid figcaption p{
+    font: var(--text-sm);
+    color: var(--gray-500);
+    padding-top: 8px;
+}
+
+
